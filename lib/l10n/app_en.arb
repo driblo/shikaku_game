@@ -1,0 +1,31 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Shikaku",
+  "@appTitle": { "description": "App display name." },
+
+  "splashSlogan": "Shikaku no ads game",
+  "@splashSlogan": {
+    "description": "Slogan shown on the splash screen. English is source of truth; translate verbatim-meaning into each supported locale."
+  },
+
+  "menuPlay": "Play",
+  "menuSettings": "Settings",
+
+  "settingsTitle": "Settings",
+  "settingsLanguage": "Language",
+  "settingsSupportLink": "Support our work",
+  "@settingsSupportLink": {
+    "description": "Settings row label that opens the in-app SupportScreen."
+  },
+  "settingsOpenSourceLicenses": "Open source licenses",
+  "@settingsOpenSourceLicenses": {
+    "description": "Settings row label that opens Flutter's showLicensePage."
+  },
+
+  "supportHeadline": "Support our work to keep this app without ads",
+  "@supportHeadline": {
+    "description": "Headline on the SupportScreen body. Fixed copy across locales."
+  },
+  "supportDonateButton": "Buy me a coffee"
+}

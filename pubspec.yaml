@@ -1,0 +1,41 @@
+name: shikaku
+description: Shikaku — an ad-free Nikoli logic puzzle.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+  flutter_riverpod: ^2.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_native_splash: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/puzzles/
+
+flutter_native_splash:
+  color: "#ffffff"
+  color_dark: "#101418"
+  # Logo-only at the OS level; localized slogan is rendered on the first
+  # Dart frame (option (b) in the architecture plan, §7 feature 5).
+  # image: assets/splash/logo.png
+  # image_dark: assets/splash/logo_dark.png
+  android_12:
+    color: "#ffffff"
+    color_dark: "#101418"
