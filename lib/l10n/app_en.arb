@@ -27,5 +27,24 @@
   "@supportHeadline": {
     "description": "Headline on the SupportScreen body. Fixed copy across locales."
   },
-  "supportDonateButton": "Buy me a coffee"
+  "supportDonateButton": "Buy me a coffee",
+
+  "levelSelectTitle": "Select Difficulty",
+  "levelSelectEasy": "Easy",
+  "levelSelectMedium": "Medium",
+  "levelSelectHard": "Hard",
+  "levelSelectExpert": "Expert",
+  "levelSelectComingSoon": "Puzzles coming soon",
+
+  "gameWon": "Puzzle solved!",
+  "gameTime": "Time: {secs}s",
+  "@gameTime": {
+    "placeholders": {
+      "secs": { "type": "int" }
+    }
+  },
+  "gameUndo": "Undo",
+  "gameReset": "Reset",
+  "gameNext": "Next puzzle",
+  "gameMenu": "Main menu"
 }

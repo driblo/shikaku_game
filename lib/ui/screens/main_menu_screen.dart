@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../l10n/generated/app_localizations.dart';
+import 'level_select_screen.dart';
 import 'settings_screen.dart';
 
 class MainMenuScreen extends StatelessWidget {
@@ -19,9 +20,8 @@ class MainMenuScreen extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               FilledButton(
-                onPressed: () {
-                  // TODO(phase 4): route to LevelSelect once gameplay lands.
-                },
+                onPressed: () => Navigator.of(context)
+                    .pushNamed(LevelSelectScreen.routeName),
                 child: Text(l10n.menuPlay),
               ),
               const SizedBox(height: 12),
